@@ -54,7 +54,7 @@ async def main():
             bg = changeImageSize(1300, 2000, bg)
             # font = ImageFont.load_default()
             font = ImageFont.truetype("stuff/fonts/arial.ttf", 60)
-            xxx_tg = f"📊 **<u>LIVE BOT STATUS @NACBOTS</u>**\n\n**💬 {CHANNEL_OR_GROUP_TYPE}**: {CHANNEL_OR_GROUP_NAME}"
+            xxx_tg = f"📊 **<u>LIVE BOT STATUS @HYBRID_Bots</u>**\n\n**💬 {CHANNEL_OR_GROUP_TYPE}**: {CHANNEL_OR_GROUP_NAME}"
             for bot in BOT_LIST:
                 try:
                     yyy_tg = await app.send_message(bot, "/start")
